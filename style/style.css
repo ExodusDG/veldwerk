@@ -26,12 +26,20 @@ li {
 
 /* MAIN */
 
+.mobileNavbar {
+    display: none;
+}
+
+.mobileMenu {
+    display: none;
+}
+
 .navbar {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.navbar ul {
+.desktopNavbar {
     display: flex;
     align-items: baseline;
 }
@@ -191,6 +199,12 @@ li {
     .hamburger.is-active .hamburger-inner::after,
     .hamburger.is-active .hamburger-inner::before {
         background-color: var(--greenColor);
+    }
+    .mobileMenu {
+        display: block;
+    }
+    .scroll {
+        overflow: hidden;
     }
 }
 
