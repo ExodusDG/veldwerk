@@ -13,7 +13,7 @@ li {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 900px;
     width: 100%;
     margin: 0 auto;
 }
@@ -57,7 +57,7 @@ li {
 
 .headerBlock {
     width: 100%;
-    height: 450px;
+    height: 350px;
 }
 
 .headerGreenBlock {
@@ -128,6 +128,7 @@ li {
         width: 100%;
         height: 300px;
     }
+
     .homepage li {
         margin-bottom: 20px;
         line-height: 1.3;
@@ -138,44 +139,55 @@ li {
     .navbar li {
         margin-right: 20px;
     }
+
     .navbar a {
         font-size: 16px;
     }
+
     .headerBlock {
         width: 100%;
         height: 200px;
     }
+
     .desktopNavbar {
         display: none !important;
     }
+
     .mobileNavbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
     .hamburger-inner,
     .hamburger-inner::after,
     .hamburger-inner::before {
         background-color: var(--greenColor);
     }
+
     .hamburger {
         padding: 0px;
     }
+
     .homepage h1 {
         font-weight: 400;
         font-size: 22px;
         line-height: 35px;
     }
+
     .homepage h2 {
         font-size: 16px;
         margin-top: 30px;
     }
+
     .homepage ul {
         padding-left: 30px;
     }
+
     .navbar a {
         font-size: 24px;
     }
+
     .mobileMenu {
         background: white;
         width: 100vw;
@@ -186,23 +198,29 @@ li {
         z-index: 999;
         transition: 0.6s;
     }
+
     .menuActive {
         left: 0;
     }
+
     .mobileMenu ul {
         display: block;
     }
+
     .mobileMenu li {
         margin-bottom: 30px;
     }
+
     .hamburger.is-active .hamburger-inner,
     .hamburger.is-active .hamburger-inner::after,
     .hamburger.is-active .hamburger-inner::before {
         background-color: var(--greenColor);
     }
+
     .mobileMenu {
         display: block;
     }
+
     .scroll {
         overflow: hidden;
     }
@@ -211,5 +229,135 @@ li {
 @media (max-width: 414px) {
     .homepage .container {
         padding: 20px;
+    }
+}
+
+.deelHeader {
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.deel1Header {
+    background: url('../images/deel1_bg.png');
+    background-size: cover;
+  
+}
+
+.deel2Header {
+    background: url('../images/deel2_bg.png');
+    background-size: cover;
+}
+
+.deel1Header img {
+    position: absolute;
+    right: 100px;
+    bottom: -100px;
+}
+
+.deel2Header img {
+    position: absolute;
+    right: 100px;
+    bottom: -100px;
+}
+
+.deelContent {
+    padding: 30px;
+}
+
+.deelName {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.deelContent p {
+    color: var(--darkColor);
+}
+
+.deelDesc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.green {
+    color: var(--greenColor);
+}
+
+.deel1List {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.deel1List span {
+    font-weight: bold;
+}
+
+.deel1List li {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.deel .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f7f8f2;
+}
+
+.downloadButton {
+    width: 250px;
+    height: 100px;
+    background: #5f7008;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+   
+}
+
+.downloadButton span {
+    font-weight: 600;
+}
+
+.downloadButton img {
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.deelButtons {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.deelButtons a {
+    font-weight: 500;
+}
+
+.dell2Desc {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dell2Desc p {
+    line-height: 1.6;
+    margin-top: 30px;
+}
+
+@media (max-width: 490px) {
+    .deelContent {
+        padding-top: 150px;
+    }
+    .deel1List {
+        width: 90%;
+    }
+    .dell2Desc {
+        width: 90%;
     }
 }
