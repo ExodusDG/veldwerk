@@ -236,14 +236,17 @@ li {
     .scroll {
         overflow: hidden;
     }
+
     .deel1Header {
         background-size: auto;
         height: 160px !important;
     }
+
     .deel1Header {
         background-size: auto;
         height: 160px !important;
     }
+
     .deel3Header {
         background-size: auto;
         height: 160px !important;
@@ -358,6 +361,7 @@ li {
     padding-top: 60px;
     line-height: 1.6;
 }
+
 .buttonAfter::after {
     content: 'DOWNLOAD PDF';
     position: absolute;
@@ -365,15 +369,17 @@ li {
     right: 0;
     bottom: 10px;
     background: #ACB57E;
-    color:var(--greenColor);
+    color: var(--greenColor);
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 700;
 
 }
+
 .deelButtons {
     flex-wrap: wrap;
 }
+
 .downloadButton span {
     font-weight: 600;
 }
@@ -413,12 +419,15 @@ li {
     #deel1 .deelContent {
         padding-top: 150px;
     }
+
     #deel2 .deelContent {
         padding-top: 150px;
     }
+
     #deel3 .deelContent {
         padding-top: 150px;
     }
+
     .deel1List {
         width: 90%;
     }
@@ -426,11 +435,27 @@ li {
     .dell2Desc {
         width: 90%;
     }
+
     .headerBlock>img {
         width: 50%;
     }
+
     .headerGreenBlock {
         width: 100%;
+    }
+
+    .mobileLogo svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mobileMenu {
+        top: 86px;
+    }
+
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -470,7 +495,7 @@ li {
 
 .navbar a {
     transition: 0.3s;
-    
+
 }
 
 .navbar a:hover {
@@ -485,18 +510,4 @@ li {
 
 .navbarFixed a:hover {
     color: white !important;
-}
-
-.mobileLogo svg {
-    width: 40px;
-    height: 40px;
-}
-
-.mobileMenu {
-    top: 86px;
-}
-
-.navbar {
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
