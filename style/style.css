@@ -37,6 +37,8 @@ li {
 .navbar {
     padding-top: 40px;
     padding-bottom: 40px;
+    transition: 0.3s;
+    z-index: 9999;
 
 }
 
@@ -141,7 +143,7 @@ li {
 
     .homepage li {
         margin-bottom: 20px;
-        line-height: 1.3;
+        line-height: 1.6;
     }
 }
 
@@ -233,6 +235,18 @@ li {
 
     .scroll {
         overflow: hidden;
+    }
+    .deel1Header {
+        background-size: auto;
+        height: 160px !important;
+    }
+    .deel1Header {
+        background-size: auto;
+        height: 160px !important;
+    }
+    .deel3Header {
+        background-size: auto;
+        height: 160px !important;
     }
 }
 
@@ -394,17 +408,29 @@ li {
     margin-top: 30px;
 }
 
+
 @media (max-width: 490px) {
-    .deelContent {
+    #deel1 .deelContent {
         padding-top: 150px;
     }
-
+    #deel2 .deelContent {
+        padding-top: 150px;
+    }
+    #deel3 .deelContent {
+        padding-top: 150px;
+    }
     .deel1List {
         width: 90%;
     }
 
     .dell2Desc {
         width: 90%;
+    }
+    .headerBlock>img {
+        width: 50%;
+    }
+    .headerGreenBlock {
+        width: 100%;
     }
 }
 
@@ -424,4 +450,35 @@ li {
 
 .dell3Desc {
     width: 100%;
+}
+
+.navbarFixed {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    background: #ACB57E;
+}
+
+.navbarFixed a {
+    color: var(--greenColor);
+}
+
+.mobileMenu {
+    padding-top: 40px;
+}
+
+.navbar a {
+    transition: 0.3s;
+    
+}
+
+.navbar a:hover {
+    color: #b2bd77;
+}
+
+.buttonAfter {
+    padding-top: 40px;
+    line-height: 1.6;
+    height: 175px;
 }
