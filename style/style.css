@@ -78,6 +78,7 @@ li {
 .headerBlock>img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .headerBlock {
@@ -100,13 +101,14 @@ li {
     font-weight: 400;
     font-size: 46px;
     line-height: 65px;
+    margin-bottom: 60px;
 }
 
 .homepage h2 {
     color: var(--darkColor);
     font-weight: 600;
     font-size: 22px;
-    margin-top: 60px;
+    margin-bottom: 20px;
     line-height: 1.7;
 }
 
@@ -510,4 +512,30 @@ li {
 
 .navbarFixed a:hover {
     color: white !important;
+}
+
+.homepage li {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.deel1List li {
+    font-style: italic;
+    font-size: 14px;
+}
+.deel1List span {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.deel1List li {
+    font-style: unset;
+}
+
+.dell3Desc span {
+    font-style: italic;
+}
+
+.verantwoording li {
+    font-style: unset;
 }
